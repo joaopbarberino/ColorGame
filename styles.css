@@ -1,0 +1,50 @@
+body{
+    margin: 0;
+    font-family: "Montserrat", "Avenir";
+    background-color: black;
+}
+
+#header {
+    background-color: steelblue;
+}
+
+#header h2 {
+    font-weight: 100;
+}
+
+#header h1 {
+    font-size: 4rem;
+}
+
+#menu button{
+    color: steelblue;
+    font-weight: 900!important;
+}
+
+#menu button:hover {
+    background-color: steelblue!important;
+    color: white;
+}
+
+#feedback {
+    width: 20%;
+    display: inline-block;
+}
+
+.selected {
+    background-color: steelblue;
+    color: white!important;
+}
+
+.quadrado {
+    width: 30%;
+    padding-bottom: 30%;
+    transition: background 0.5s;
+    margin: 1.66%;
+    border-radius: 15%;
+}
+
+.remove {
+    transition: background 0.5s;
+    background-color: black!important;
+}

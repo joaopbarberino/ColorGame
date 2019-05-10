@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Color Game Project
+    </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- BootStrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <!-- BootStrap JS -->
+    <script defer src="https://code.jquery.com/jquery-3.4.1.min.js"
+        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <script defer src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+    <!-- Custom CSS & JS -->
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="script.js"></script>
+</head>
+
+<body>
+    <div id="header" class="container-fluid text-center pt-3 pb-2 text-light">
+        <h2 class="mb-0 pb-0">THE GREAT</h1>
+            <h1 id="objetivo" class="display-4 m-0 p-0">RGB(255, 255, 255)</h1>
+            <h2 class="mt-0 pt-0">COLOR GAME</h1>
+    </div>
+    <div class="container-fluid bg-light">
+        <div class="container">
+            <div id="menu" class="container d-flex text-center justify-content-around">
+                <button id="reset" class="btn rounded-0 p-1 ml-5">NEW COLORS</button>
+                <span id="feedback" class="my-auto"></span>
+                <div id="dificuldade" class="">
+                    <button id="easy" class="btn rounded-0 p-1">EASY</button>
+                    <button id="hard" class="btn rounded-0 p-1 selected">HARD</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div id="quadrados_div_1" class="d-flex mt-3 justify-content-center">
+            <div class="quadrado"></div>
+            <div class="quadrado"></div>
+            <div class="quadrado"></div>
+        </div>
+        <div id="quadrados_div_2" class="d-flex justify-content-center">
+            <div class="quadrado"></div>
+            <div class="quadrado"></div>
+            <div class="quadrado"></div>
+        </div>
+
+
+    </div>
+</body>
+
+</html>
